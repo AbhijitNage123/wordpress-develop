@@ -1,53 +1,53 @@
 # gitignore file for WordPress Core
 
 # Configuration files with possibly sensitive information
-.env
-wp-config.php
-wp-tests-config.php
-.htaccess
+# .env
+# wp-config.php
+# wp-tests-config.php
+# .htaccess
 
 # Files and folders related to build/test tools
-.phpunit.result.cache
-/phpunit.xml
-/.phpcs.xml
-/phpcs.xml
-.cache/*
-/tests/phpunit/data/plugins/wordpress-importer
-/tests/phpunit/data/.trac-ticket-cache*
-/tests/qunit/compiled.html
-/tests/performance/**/*.test.results.json
-/src/.wp-tests-version
-/node_modules
-/npm-debug.log
-/build
-/gutenberg
-/tests/phpunit/build
-/wp-cli.local.yml
-/phpstan.neon
-/*.tsbuildinfo
-/jsdoc
-/composer.lock
-/vendor
-/src/wp-admin/css/*.min.css
-/src/wp-admin/css/*-rtl.css
-/src/wp-admin/css/colors/*/*.css
-/src/wp-admin/js
-/src/wp-includes/assets/*
-!/src/wp-includes/assets/icon-library-manifest.php
-!/src/wp-includes/assets/script-loader-packages.php
-!/src/wp-includes/assets/script-modules-packages.php
-/src/wp-includes/js
-/src/wp-includes/css/dist
-/src/wp-includes/css/*.min.css
-/src/wp-includes/css/*-rtl.css
-/src/wp-includes/blocks/**/*.css
-/src/wp-includes/blocks/**/*.js
-/src/wp-includes/blocks/**/*.js.map
-/packagehash.txt
-/.gutenberg-hash
-/artifacts
-/setup.log
-/coverage
+# .phpunit.result.cache
+# /phpunit.xml
+# /.phpcs.xml
+# /phpcs.xml
+# .cache/*
+# /tests/phpunit/data/plugins/wordpress-importer
+# /tests/phpunit/data/.trac-ticket-cache*
+# /tests/qunit/compiled.html
+# /tests/performance/**/*.test.results.json
+# /src/.wp-tests-version
+# /node_modules
+# /npm-debug.log
+# /build
+# /gutenberg
+# /tests/phpunit/build
+# /wp-cli.local.yml
+# /phpstan.neon
+# /*.tsbuildinfo
+# /jsdoc
+# /composer.lock
+# /vendor
+# /src/wp-admin/css/*.min.css
+# /src/wp-admin/css/*-rtl.css
+# /src/wp-admin/css/colors/*/*.css
+# /src/wp-admin/js
+# /src/wp-includes/assets/*
+# !/src/wp-includes/assets/icon-library-manifest.php
+# !/src/wp-includes/assets/script-loader-packages.php
+# !/src/wp-includes/assets/script-modules-packages.php
+# /src/wp-includes/js
+# /src/wp-includes/css/dist
+# /src/wp-includes/css/*.min.css
+# /src/wp-includes/css/*-rtl.css
+# /src/wp-includes/blocks/**/*.css
+# /src/wp-includes/blocks/**/*.js
+# /src/wp-includes/blocks/**/*.js.map
+# /packagehash.txt
+# /.gutenberg-hash
+# /artifacts
+# /setup.log
+# /coverage
 
 # Files and folders that get created in wp-content
 /src/wp-content/blogs.dir
